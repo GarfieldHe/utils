@@ -1,0 +1,23 @@
+1、依赖
+<!-- springboot 整合 mongodb   -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
+2、配置文件连接mongo
+spring:
+    data:
+      mongo:
+        uri:  mongodb://fundAppropriation:fundAppropriation@172.30.3.165/fund    # 数据库地址
+或
+spring:
+  data:
+    mongodb:
+      host: 172.30.3.165
+      port: 27017
+      database: fund
+      username: fundAppropriation
+      password: fundAppropriation
+
+3、
