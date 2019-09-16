@@ -5,6 +5,8 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Data
 @Document
 public class PersonEntity {
@@ -17,4 +19,6 @@ public class PersonEntity {
     private String phone;
     private String address;
     private String birthday;
+    private String company;
+    private List<NumStatistics> numStatistics;
 }
