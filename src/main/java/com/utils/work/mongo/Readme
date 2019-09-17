@@ -20,4 +20,4 @@ spring:
       username: fundAppropriation
       password: fundAppropriation
 
-3、
+3、用聚合 Aggregation 查询
