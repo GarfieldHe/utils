@@ -1,5 +1,6 @@
 package com.utils.work.mongo;
 
+import com.utils.work.http.GlobalException;
 import com.utils.work.mongo.Dto.NumStatistics;
 import com.utils.work.mongo.Dto.PersonEntity;
 import org.bson.Document;
@@ -40,7 +41,8 @@ public class MongoService {
             p.setNumStatistics(numStatisticsList);
             personEntityList.add(p);
         }
-        mongoTemplate.insert(personEntityList, "utils_person");
+            mongoTemplate.insert(personEntityList, "utils_person");
+
         // insert Entity
         PersonEntity p = new PersonEntity();
         p.setId(UUID.randomUUID().toString().replaceAll("_", ""));
