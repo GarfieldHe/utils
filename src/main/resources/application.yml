@@ -1,5 +1,5 @@
 server:
-  port: 6070
+  port: 6071
 spring:
   data:
     mongodb:
@@ -12,5 +12,3 @@ spring:
     multipart:
       max-file-size: 200MB
       max-request-size: 200MB
-oauth:
-  hide-user-not-found: true

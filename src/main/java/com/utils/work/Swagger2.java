@@ -26,7 +26,7 @@ public class Swagger2 {
         return new ApiInfoBuilder()
                 .title("utils")
                 .description("utils")
-                .version("0.0.0")
+                .version("0.0.1")
                 .build();
     }
 }
