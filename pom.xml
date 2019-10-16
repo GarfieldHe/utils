@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.utils</groupId>
     <artifactId>work</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>work</name>
     <description>Utils in Spring Boot</description>
 
